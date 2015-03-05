@@ -1,0 +1,10 @@
+*.pyc
+
+dist/
+build/
+*.egg-info/
+
+*.nja
+.tox/
+.coverage
+.nja

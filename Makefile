@@ -16,7 +16,7 @@ install:
 
 .PHONY: pep8
 pep8:
-	@flake8 taz --ignore=F403
+	@flake8 taz --ignore=F403 --exclude=__init__.py
 
 .PHONY: sdist
 sdist: test
